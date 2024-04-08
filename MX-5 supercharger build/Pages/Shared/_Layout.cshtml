@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MX_5_supercharger_build.styles.css" asp-append-version="true" />
+    
 </head>
 <body>
     <header>
@@ -28,13 +29,17 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> 
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+
+    <!-- Left Sidebar -->
+    
+
+    <!-- Main Content -->
+    <div class="main-content">
+        @RenderBody() <!-- This renders the content of your views -->
     </div>
+
 
     <footer class="border-top footer text-muted">
         <div class="container">

@@ -2,9 +2,91 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    
 }
+<style>
+    div.scroll-container {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+    }
+
+        div.scroll-container img {
+            padding: 10px;
+        }
+</style>
+
 
 <div class="text-center">
     <h1 class="display-4">Welcome To MX-5 Supercharge Your Car.</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<div class="container">
+
+    <div class="scroll-container">
+    <img src="images/mx5_car_view.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_dyno.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_engine_bay.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_car_flat.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_ME442.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_supercharger_loose.jpg" alt="" width="600" height="400">
+    </div>
+
+
+    <div class="text-center">
+        <h2 class="display-2" >Introduction.</h2>
+    </div>
+
+
+    <p>
+    Welcome to my web page involving the Home brew kit of supercharging my MX-5 VVT 2002 model. Here I will try to explain how I done it and most importantly, 
+    issues I had came across while doing the build along with teething problems post build. <br/>
+    The build included ME442 with built in wideband controller, Bosch 550cc injectors, BRK7E plugs (Not to be confused with BRK7E-11), M62 eaton supercharger
+    which was removed from the Mercedes R170 2000, M62 weld yourself bracket, Bofi overlay pulley, ebay Intercooler along with some pipework. <br/>
+    As I progress through the build, I have tried to take as many pictures as possible along the way. If any you require additionally or think it should be 
+    added then please let me know.<br/>
+    </p>
+    <br/>
+
+    <p>
+    Before I begin, I would like to send my sincere thanks to the below who have helped me along the way in my build.
+    </p>
+
+    <ul style="list-style-type:disc;">
+    <li>Bofi : for the overlay, injectors and the countless of information on their webpage with regards to advice and guidance.</li>
+    <li>Motorsports electronics for the ME442 and their support when I got stuck and post purchase of their ECU.</li>
+    <li>DigiTune Ltd for the tuning and diagnostic help.</li>
+    <li>eddk2012 (Ebay) for the supercharger bracket and dealing with a random issue I had (Dont ask lol).</li>
+    <li>Gareth Fitter, for welding the throttle body housing brackets and inlet/outlets of the kit for me.</li>
+    </ul>
+
+    <div class="text-center">
+        <h2 class="display-2">Injectors, ME442, Airfilter, IAT sensor.</h2>
+    </div>
+
+    <p>
+    The first part of the build was to install the Me442, Injectors, Airfilter and the IAT sensor. Although this was additional cost to the project, it was needed for 
+    myself as I was still using the car in between. Also, it give me piece of mind to ensure all was working correctly. For the wideband sensor, this was fitted into 
+    the mid pipe, fortunately for me, my mid pipe was fairly new, so changing the sensor was not to bad. however, I did have an issue with the cat as its original and 
+    the end connecting to mid pipe was rotted a bit, so welded on new clamp.<br/>
+    For the ME442, I had to remove my old ECU, which was quite an easy install. By pushing passenger seat all way back, I then lifted up door step off, followed by 
+    the door seal, and pull carpet back to expose the metal foot well cover. From there, if not rotted, requires undoing the two bolts and remove the footwell plate to 
+    the ECU. <br/>
+    From here, you will then need to undo the supporting nuts and unplug the ECU, my understanding is different years have different plugs. Mine had three. You then need
+    to remove the ECU cover, unless you can find one second hand from somewhere. You will need to drill hole to fit additional cables coming out (USB, Wideband and Vac line).
+    The USB i routed up and keep in my glove box, while the vac line and wideband cable got routed through the bulkhead via a rubber flap located next to the inlet/outlet 
+    heater matrix coolant hoses. Where the vac line feeds up behind engine and to a port hole off the inlet manifold, While the wideband connects to the connector off the
+    sensor itself which can be secured near the original o2 sensor loom.<br/>
+    </p>
+
+    <div class="scroll-container">
+    <img src="images/mx5_car_view.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_dyno.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_engine_bay.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_car_flat.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_ME442.jpg" alt="" width="600" height="400">
+    <img src="images/mx5_supercharger_loose.jpg" alt="" width="600" height="400">
+    </div>
+</div>
+
