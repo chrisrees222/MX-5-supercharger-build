@@ -573,10 +573,12 @@
     width: 75%;
   }
 
-  .col-md-10 {
-    flex: 0 0 auto;
-    width: 83.33333333%;
-  }
+    .col-md-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+        border-color: lightgray;
+        border-right: dotted;
+    }
 
   .col-md-11 {
     flex: 0 0 auto;
