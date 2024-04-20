@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 14px; 
 }
 
 @media (min-width: 768px) {
@@ -15,4 +15,138 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+/* Recommendations */
+
+.all_recommendations {
+    width: 50%;
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.recommendation {
+    
+    float: left;
+    font-style: italic;
+    text-align: left;
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid blue;
+    font-size: 18px;
+    height: auto;
+}
+
+.recommendation span {
+    color: #0026ff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Scroll to Top Button */
+
+.iconbutton {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #0026ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+/* Form Pop-up */
+
+.popup {
+    width: 400px;
+    background-color: #0094ff;
+    border-radius: 3mm;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: fixed;
+    /* padding: 30px; */
+    visibility: hidden;
+}
+
+    .popup img {
+        padding-top: 20px;
+    }
+
+    .popup button {
+        background-color: #fff;
+        border: 1px solid #0026ff;
+        color: #0026ff;
+        display: block;
+        border-radius: 6px;
+        text-align: center;
+        margin: 50px;
+        padding: 10px;
+        width: 2in;
+        font-size: 20px;
+        margin-left: 25%;
+    }
+
+        .popup button:hover {
+            background-color: #fff;
+            border: 2px solid #0026ff;
+            color: #0026ff;
+            display: block;
+            font-weight: bolder;
+            text-align: center;
+            cursor: pointer;
+            margin-left: 25%;
+        }
+
+/* Recommendation Form */
+
+input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    border-color: blue;
+    width: 100%;
+}
+
+fieldset {
+    margin:auto;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;    
+    border: thin solid white;
+    width: 90%;
+}
+
+/* Buttons */
+
+button {
+    background-color: #fff;
+    border: 1px solid #0026ff;
+    color: #0026ff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #0026ff;
+    border: 1px solid #0026ff;
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
 }

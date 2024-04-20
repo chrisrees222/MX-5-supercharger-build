@@ -1,0 +1,88 @@
+﻿@page
+@model MX_5_supercharger_build.Pages.Index1Model
+@{
+}
+
+<div class="text-center">
+    <h1 class="display-1 fw-normal text-decoration-underline"> Reviews page.  </h1>
+</div>
+<br />
+<br />
+
+<div class="text-center">
+    <h1 class="display-6 fw-normal"> Please feel free to leave a review of the build, I am open ideas of what I could do and others to enhance the build and write up for all to review. </h1>
+</div>
+<br/>
+<br/>
+
+
+<div class="row">
+    <div class="col-md-2" style="border-right:double; border-color:blue;">
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" style="float:right; position: fixed;">
+            <!-- Left sidebar content -->
+            
+        </div>
+    </div>
+
+    <div class="col-md-7">
+        <!-- Right content -->
+        <div class="center-content" style="padding:25px">
+            <!-- Main content here -->
+            <!-- Recommendation Form -->
+            <section id="contact">
+                <div class="center-content">
+                    <fieldset>
+                        <legend class="introduction">Leave a Comment</legend>
+                        <input id="user" type="text" placeholder="Name" style="border-radius:5px">
+                        <br />
+                        <textarea id="new_recommendation" placeholder="Message" style="border-radius:10px" cols="500" rows="5"> </textarea>
+                        <br/>
+                        <div class="flex_center">
+                            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+                        </div>
+                    </fieldset>
+                </div>
+            </section>
+            <br/><br/><br/>
+            <section id="Recommendations">
+                <h2>Comments</h2><br/>
+                
+                <div class="Recommendations" id="all_recommendations">
+                    <div class="recommendation">
+                        <span>&#8220;</span>
+                        
+                        <span>&#8221;</span>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <div class="popup" id="popup">
+                <h3>Thank you for the comment.</h3>
+                <button onclick="showPopup(false)">Ok</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-md-2" style="border-left:double; border-color:blue; ">
+        <!-- Right hand side-->
+    </div>
+
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
